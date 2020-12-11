@@ -1,0 +1,30 @@
+   22  sudo yum install git -y
+   23  ll
+   24  pwd
+   25  got 
+   26  git
+   27  cd /
+   28  ll
+   29  cd $home
+   30  pwd
+   31  mkdir gittest
+   32  cd gittest/
+   33  git init
+   34  ll
+   35  ll -a
+   36  vi testfile.txt
+   37  git commit
+   38  git add testfile.txt 
+   39  git commit -m "first git commit"
+   40  git status
+   41  git log
+   42  git remote add test https://github.com/fahminmd/git-test.git
+   43  git remote show
+   44  git remote show test
+   45  git push test master
+   46  vi testfile.txt 
+   47  cat testfile.txt 
+   48  git push test master
+   49  git commit -m "commit after first push"
+   50  git commit -m "commit after first push" testfile.txt 
+   51  git push test master
